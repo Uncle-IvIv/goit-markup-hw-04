@@ -51,13 +51,10 @@ body {
 }
 .container {
   max-width: 1158px;
-  ;
   margin: 0 auto;
   
 }
-.wrapper {
-  
-}
+
 
 .main-styl {
   background-color: #2e2f42;
