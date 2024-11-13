@@ -57,7 +57,9 @@ body {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: url(../images/hero image.jpg)
 }
+
 .hg-styl {
   font-family: var(--font-family);
   font-weight: 700;
@@ -69,6 +71,7 @@ body {
   margin: 0 auto 48px;
   width: 496px;
   height: 120px;
+  
      }
 .button {
   background-color: #4d5ae5;
