@@ -20,7 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf
+  color: #404bbf;
   padding: 24px 0;
   display: block;
   position: relative; 
@@ -30,6 +30,16 @@ body {
 }
 .nav-punkt-st:focus {
   color: #404bbf;
+}
+.nav-punkt-st::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .adress-styl {
   font-style: normal;
@@ -54,7 +64,6 @@ body {
   margin: 0 auto;
   
 }
-
 
 .main-styl {
   background-color: #2e2f42;
