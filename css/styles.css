@@ -23,6 +23,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .nav-punkt-st:hover {
   color: #404bbf;
@@ -30,7 +31,7 @@ body {
 .nav-punkt-st:focus, .nav-punkt-st.current {
   color: #404bbf;
 }
-.nav-punkt-st::after {
+.nav-punkt-st.current::before {
   content: '';
   width: 100%;
   position: absolute;
@@ -42,7 +43,6 @@ body {
 }
 .nav-punkt-st.current {
   position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-styl {
   font-style: normal;
