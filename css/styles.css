@@ -419,7 +419,7 @@ text-align: center;
   align-items: center;
   justify-content: center;
     }
-.footer-soc-icon:hover: {
+link-inst:hover .footer-soc-icon:hover: {
   background-color: #31d0aa;
 }
 .footer-soc-icon:focus {
