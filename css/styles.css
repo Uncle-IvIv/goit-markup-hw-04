@@ -24,6 +24,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
 .nav-punkt-st:hover {
   color: #404bbf;
@@ -31,7 +32,7 @@ body {
 .nav-punkt-st:focus, .nav-punkt-st.current {
   color: #404bbf;
 }
-.nav-punkt-st.current::before {
+.nav-punkt-st.current::after {
   content: '';
   width: 100%;
   position: absolute;
