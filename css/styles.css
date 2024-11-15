@@ -425,3 +425,6 @@ link-inst:hover .footer-soc-icon:hover: {
 .footer-soc-icon:focus {
   background-color: #31d0aa;
 }
+.footer-soc-icon-svg {
+  fill: #f4f4fd;
+}
