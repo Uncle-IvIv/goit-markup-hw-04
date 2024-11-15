@@ -251,7 +251,7 @@ body {
   height: 100%;
   width: 100%;
   transform: translateY(100%);
-  transition: transform: translateY(0%);
+  transition: transform translateY(0%);
 }
 .footer-end {
   background-color: #2e2f42;
