@@ -41,6 +41,7 @@ body {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  box-sizing: border-box;
 }
 .nav-punkt-st.current {
   position: relative;
@@ -67,8 +68,8 @@ body {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  
-}
+  padding: 0 15px;
+  }
 
 .main-styl {
   background-color: #2e2f42;
@@ -79,6 +80,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hg-styl {
@@ -388,7 +390,6 @@ text-align: center;
 .con-foot-z {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 .container-footer {
   margin-right: 120px;
